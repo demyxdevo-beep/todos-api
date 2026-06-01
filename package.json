@@ -1,0 +1,22 @@
+{
+	"name": "todos-api",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"cf-typegen": "wrangler types",
+		"type-check": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@faker-js/faker": "^10.4.0",
+		"hono": "^4.12.9",
+		"jose": "^6.2.2"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20260402.1",
+		"typescript": "6.0.2",
+		"wrangler": "^4.79.0"
+	}
+}
